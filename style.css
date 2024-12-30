@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+#heading{
+    color:white;
+    font-family: monospace;
+}
+#head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+#logo{
+    height:80px;
+    width:80px;
+    border-radius:20px;
+    transition: 0.3s ease;
+}
+#logo:hover{
+    height:90px;
+    width:90px;
+    border-radius:20px;
+    transition: 0.3s ease;
+}
+#headnote{
+    color:white;
+    font-family: monospace;
+    font-size:1rem;
+}
+#covercont{
+    position: relative;
+    height:630px;
+    width:auto;
+    background-image: url("WhatsApp Image 2024-12-27 at 23.31.19_5a5e66e1.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
+    
+}
+#covernote{
+    color:white;
+    
+    font-size: 3rem;
+    display: flex;
+    position: absolute;
+justify-content: center;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+align-items: center;
+text-align: center;
+font-family: monospace;
+
+}
+.notes{
+    color: white;
+    font-family: monospace;
+    font-size: 0.5cm;
+}
+.workcontainer{
+    margin-top: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.containers{
+    background-image: url("Gemini_Generated_Image_dh37yydh37yydh37.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+#projheading{
+    color:white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: monospace;
+}
+#menu .listitems{
+    display: block;
+
+}
+#menu{
+    display: inline;
+}
